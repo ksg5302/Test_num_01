@@ -13,5 +13,4 @@ git hub 기본 사용법
     git add . : stage 상태로 올린다
     git commit -m "test2" : 커밋 메세지 작성
     git push origin main : 메인 브렌치에 푸시
-    git pull : github Repositories 변경 사항 가져옴
-    
+    git pull origin main  : github Repositories 변경 사항 가져옴
