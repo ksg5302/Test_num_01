@@ -7,7 +7,7 @@ git hub 기본 사용법
 2. 터미널 명령어
 
     git init : git 에게 현재 경로 모든 파일 추적 명령
-    git remote add origin https://github.com/ksg5302/Test_num_01.git : 현재 경로 디렉터리를 해당 주소 github Repositories 주소와 연결
+    git remote add origin https://github.com/ksg5302/Test_num_01.git : 원격 저장소 주소를 origin 이라는 이름으로 지정
     git config --global user.email "ksg5302@gmail.com" : 커밋 작성자 정보를 저장
     git config --global user.name "O.G" : 커밋 작성자 정보를 저장
     git add . : stage 상태로 올린다
