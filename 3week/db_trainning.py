@@ -8,7 +8,7 @@ from threading import Timer
 
 class DBupdater:
     def __init__(self):
-        self.conn = pymysql.connect(host = '127.0.0.1', user = 'root', password = 'quddkfl5302', 
+        self.conn = pymysql.connect(host = '', user = '', password = '', 
                                     db = "INVESTAR", charset='utf8')
         with self.conn.cursor() as curs:
             sql = """
